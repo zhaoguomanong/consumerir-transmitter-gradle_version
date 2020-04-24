@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.consumerirtransmitter;
+package org.lineageos.consumerirtransmitter.utils;
 
 import android.content.Context;
 import android.text.TextUtils;

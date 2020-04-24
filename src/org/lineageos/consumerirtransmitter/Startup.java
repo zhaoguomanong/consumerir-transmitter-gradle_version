@@ -21,6 +21,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.UserHandle;
 import android.util.Log;
+import org.lineageos.consumerirtransmitter.utils.ReflectionUtils;
 
 public class Startup extends BroadcastReceiver {
     private static final String TAG = "ConsumerirTransmitter";

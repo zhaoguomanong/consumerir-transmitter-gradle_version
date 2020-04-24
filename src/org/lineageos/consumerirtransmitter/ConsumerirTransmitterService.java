@@ -24,20 +24,13 @@ import android.content.IntentFilter;
 import android.os.IBinder;
 import android.os.UserHandle;
 import android.util.Log;
-
-import java.util.ArrayList;
-import java.util.List;
-
 import android.content.ComponentName;
 import android.content.ServiceConnection;
-
-import org.lineageos.consumerirtransmitter.IControl;
-
+import org.lineageos.consumerirtransmitter.utils.ReflectionUtils;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Arrays;
-import android.os.RemoteException;
 
 public class ConsumerirTransmitterService extends Service {
     private static final String TAG = "ConsumerirTransmitter";
